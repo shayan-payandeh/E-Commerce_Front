@@ -15,7 +15,6 @@
     "@mui/lab": "^5.0.0-alpha.78",
     "@mui/material": "^5.6.2",
     "@mui/styled-engine-sc": "^5.6.1",
-    "@mui/styles": "^5.6.2",
     "@reduxjs/toolkit": "^1.8.5",
     "axios": "^0.26.1",
     "caniuse-lite": "^1.0.30001441",
