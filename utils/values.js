@@ -1,6 +1,6 @@
 // const address = 'http://127.0.0.1:9000';
 const address = 'http://localhost:1500';
-export const api = `${address}/api`;
+export const api = process.env.NODE_ENV === 'development' ? `${address}/api` : `api.${process.env.WEBSITE_URL}`;
 export const productsUrl = '/products';
 export const ordersUrl = '/order';
 export const usersUrl = '/users';
