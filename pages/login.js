@@ -18,6 +18,7 @@ import { AccountCircleOutlined } from '@mui/icons-material';
 import { userUrl, loginUrl, registerUrl, api } from '@/utils/values';
 import { getError } from '@/utils/getError';
 import { apiCall } from '@/utils/apiCall';
+import axios from 'axios'
 
 function Login() {
   const {
@@ -46,7 +47,7 @@ function Login() {
     closeSnackbar();
     setProgressFlag(true);
 
-    const response = await apiCall(`${userUrl}${loginUrl}`, 'post', {
+    const response = await axios.post(`${api}${userUrl}${loginUrl}`, {
       email,
       password,
     });
