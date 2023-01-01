@@ -46,7 +46,7 @@ function Login() {
     closeSnackbar();
     setProgressFlag(true);
 
-    const response = await apiCall(`${api}${userUrl}${loginUrl}`, 'post', {
+    const response = await apiCall(`${userUrl}${loginUrl}`, 'post', {
       email,
       password,
     });
