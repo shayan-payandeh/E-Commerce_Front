@@ -80,7 +80,7 @@
     display: none;
     justify-content: center;
     box-shadow: 0 0 10px 0px #c2c2c2; 
-    min-height: 50px;
+    // min-height: 50px;
 
     @media screen and (min-width: 900px) {
       display: flex;
@@ -89,18 +89,17 @@
   
     .activeTab{
       @include m.tab;
-      font-weight: 'bold';
-      border-bottom: 2px solid #d10023;
-      
+      background-color: lighten($color: var.$primary, $amount: 68);
       .menuItemText {
-        color: var.$primaryShadow;
+        color: lighten($color: var.$primary, $amount: 13);
+        font-weight: bold
       }
+      // border-bottom: 2px solid #d10023;
     }
   
     .tab {
       @include m.tab;
-      margin: 0px;
-
+      // margin: 0px;
       &:hover{
         padding: '11px 40px';
         background-color: #ebebeb;

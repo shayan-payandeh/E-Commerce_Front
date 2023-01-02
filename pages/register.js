@@ -305,6 +305,6 @@ function Register() {
 export default Register;
 
 // Register.noLayout = true;
-Register.getLayout = function (page) {
-  return <>{page}</>;
-};
+// Register.getLayout = function (page) {
+//   return <>{page}</>;
+// };

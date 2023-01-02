@@ -126,7 +126,7 @@ function Footer() {
             </div>
           )}
         </div>
-        {/* --- */}
+
         <div
           className={'row col-md-4 col-sm-12 col-xs-12' + ' ' + styles.column}
         >
@@ -181,7 +181,9 @@ function Footer() {
             </span>
           </div>
         </div>
-        <div className={'col-md-4 col-sm-12 col-xs-12' + ' ' + styles.column}>
+        <div
+          className={'row col-md-4 col-sm-12 col-xs-12' + ' ' + styles.column}
+        >
           <div
             className={`'col-md-12 col-sm-12 col-xs-12 ' ${
               language === 'English'
@@ -222,7 +224,6 @@ function Footer() {
           </div>
           <br />
           <div
-            c
             className={`'col-md-12 col-sm-12 col-xs-12' ${
               language === 'English'
                 ? styles.columnListItemsContainerEnglish
@@ -245,8 +246,8 @@ function Footer() {
         }
       >
         {language === 'English'
-          ? ' All rights reserved. Shayan@ '
-          : 'تمام حقوق مادی و معنوی متعلق به فروشگاه شایان می باشد.'}
+          ? 'Copyright © 2023 shayanshop. All rights reserved.'
+          : '.تمام حقوق مادی و معنوی متعلق به فروشگاه شایان شاپ می باشد'}
       </div>
     </footer>
   );

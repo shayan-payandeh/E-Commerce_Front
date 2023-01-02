@@ -1,6 +1,4 @@
-// const address = 'http://127.0.0.1:9000';
-const address = 'http://localhost:1500';
- export const api =  `https://api.shayanshop.shop`;
+export const api = `https://api.shayanshop.shop`;
 export const productsUrl = '/products';
 export const ordersUrl = '/order';
 export const usersUrl = '/users';

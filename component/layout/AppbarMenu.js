@@ -42,6 +42,7 @@ function AppbarMenu() {
         className={styles.secondNavbar}
         dir={language === 'English' ? 'ltr' : 'rtl'}
       >
+        
         <NextLink href={'/'} passHref>
           <Link
             style={{

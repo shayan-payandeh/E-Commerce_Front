@@ -101,7 +101,7 @@ function Home({ allProducts, bestSelling }) {
       />
       <CardSlider
         products={bestSelling}
-        title={language === 'English' ? 'BestSelling' : 'پرفروش ترین ها'}
+        title={language === 'English' ? 'Best Seller' : 'پرفروش ترین ها'}
       />
     </>
   );
