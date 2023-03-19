@@ -2,6 +2,8 @@ import axios from 'axios';
 import { api } from './values';
 
 export const apiCall = async (url, method, data, headers) => {
+  console.log(data);
+  console.log(headers);
   let result;
   try {
     result = await axios.request({

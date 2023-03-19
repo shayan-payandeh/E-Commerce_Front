@@ -6,7 +6,7 @@ import styles from '@/styles/Layout.module.scss';
 import MainAppBar from './MainAppBar';
 import AppbarMenu from './AppbarMenu';
 import AppbarMobileMenu from './AppbarMobileMenu';
-import Footer from './Footer';
+import Footer from './footer/Footer';
 
 function Layout({ children }) {
   const [language, setLanguage] = useState('');

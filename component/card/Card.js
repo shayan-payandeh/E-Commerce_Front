@@ -18,6 +18,7 @@ import { priceUnit, productsUrl } from '@/utils/values';
 import { useEffect, useState } from 'react';
 
 function ProductCard({ product, language, addToCartHandler, cartItems }) {
+  console.log(product.image);
   const [cartFlag, setCartFlag] = useState(true);
   const theItem = cartItems.find((item) => item.slug === product.slug);
 

@@ -16,7 +16,7 @@ import { Store } from '@/utils/Store';
 
 function AppbarMobileMenu() {
   const [expandMenu, setExpandMenu] = useState(false);
-  const { state, dispatch } = useContext(Store);
+  const { state } = useContext(Store);
   const [language, setLanguage] = useState('');
 
   useEffect(() => {

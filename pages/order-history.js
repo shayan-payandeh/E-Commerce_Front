@@ -130,7 +130,6 @@ export async function getServerSideProps(context) {
   let result;
   if (context.req.cookies.userInfo) {
     const token = JSON.parse(context.req.cookies.userInfo).token;
-
     const data = await apiCall(
       `${ordersUrl}/mine?${queryString.stringify(context.query)}`,
       'get',

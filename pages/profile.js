@@ -46,6 +46,7 @@ function Profile() {
         ? "Passwords don't match"
         : 'رمز عبورها باید یکسان باشد';
     closeSnackbar();
+    setProgressFlag(true);
 
     if (password !== confirmPassword) {
       enqueueSnackbar(passwordMessage, { variant: 'error' });

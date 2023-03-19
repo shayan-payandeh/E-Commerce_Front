@@ -119,7 +119,6 @@ function OrderHistoryTable({
   );
 }
 
-// export default OrderHistoryTable;
 export default dynamic(() => Promise.resolve(OrderHistoryTable), {
   ssr: false,
 });

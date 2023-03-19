@@ -1,4 +1,6 @@
+//export const api = 'http://localhost:1500';
 export const api = `https://api.shayanshop.shop`;
+export const home = '/';
 export const productsUrl = '/products';
 export const ordersUrl = '/order';
 export const usersUrl = '/users';
